@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.120191fe.css",
+    "main.js": "/static/js/main.0bbe4dec.js",
+    "static/media/Profile.png": "/static/media/Profile.d4f68fb169f36e20691c.png",
+    "static/media/Dev.svg": "/static/media/Dev.0c9ae6a5d41c2e835d41c040d0217e8d.svg",
+    "static/media/PaytoneOne.ttf": "/static/media/PaytoneOne.49f0dd262b027f64630e.ttf",
+    "static/media/tekLogo.svg": "/static/media/tekLogo.11617c39f61987065a2a34aa50df9a7d.svg",
+    "static/media/classicReact.svg": "/static/media/classicReact.dcc7e6bbd98175fb3293d9bde39d00ec.svg",
+    "static/media/star.svg": "/static/media/star.2fe1c49e4367003a86456be68e10f8a1.svg",
+    "static/media/flutter.svg": "/static/media/flutter.2722d760be767e6bdf0a9045d7fe753b.svg",
+    "static/media/python.svg": "/static/media/python.d017e2cd97cc966d247cc7f65bac799f.svg",
+    "static/media/c.svg": "/static/media/c.ed3255f99b4eeca9903f1f0e6d6eb802.svg",
+    "static/media/reactNat.svg": "/static/media/reactNat.3a5e0b56e937972b6594807ec9b42a1d.svg",
+    "static/media/c++.svg": "/static/media/c++.8836f67521ce8c333274097796436688.svg",
+    "index.html": "/index.html",
+    "main.120191fe.css.map": "/static/css/main.120191fe.css.map",
+    "main.0bbe4dec.js.map": "/static/js/main.0bbe4dec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.120191fe.css",
+    "static/js/main.0bbe4dec.js"
+  ]
+}
