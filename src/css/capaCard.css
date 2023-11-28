@@ -1,0 +1,29 @@
+.Squarre {
+    width: 19rem;
+    height: 16rem;
+    box-shadow:7px 9px 0 2px #231f20;
+    border-radius: 3%;
+    margin-top: 2rem;
+}
+
+.Logo {
+    width: 4rem;
+    margin: 0.5rem;
+}
+
+.CapaName {
+    font-family: PaytoneOne, sans-serif;
+    text-transform: uppercase;
+
+}
+
+@media screen and (min-width: 1000px) {
+    .Squarre {
+        width: 19rem;
+        height: 16rem;
+        box-shadow:7px 9px 0 2px #231f20;
+        border-radius: 3%;
+        margin-right: 2rem;
+        transition: all 0.2s ease;
+    }
+}

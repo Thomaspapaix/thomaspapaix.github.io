@@ -1,0 +1,174 @@
+.App {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+}
+
+.Intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.Text{
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 10%;
+  transition: all 0.2s ease;
+}
+
+.Title h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    transition: all 0.2s ease;
+    font-family: PaytoneOne, sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.DevImage{
+  display: block;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 11rem;
+}
+
+.CapacitiesTitle{
+  display: block;
+  width: 20rem;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.CapacitiesTitle h1{
+  margin: auto;
+  font-size: 2.5rem;
+  text-align: center;
+  transition: all 0.2s ease;
+  font-family: PaytoneOne, sans-serif;
+}
+
+.Capacities {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 5rem auto;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.Footer {
+  color: #fcba28;
+  text-align: center;
+  font-family: PaytoneOne, sans-serif;
+  height: 10rem;
+  width: 95%;
+  border-radius: 1rem;
+  margin: 0 auto 1rem auto;
+  transition: all 0.2s ease;
+  background-color: #231f20;
+  z-index: 1;
+
+}
+
+.TekLogo {
+  width: 4rem;
+  margin-top: -2.6rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.5rem;
+  transition: all 0.2s ease;
+  z-index: 2;
+}
+
+.FooterTitle {
+  font-size: 2rem;
+  margin-top: 1rem;
+  z-index: 0;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.FooterBoxTitle {
+  align-items: center;
+  z-index: 0;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .Text {
+    padding-top: 9rem;
+    margin-left: 3rem;
+    width: 47%;
+  }
+
+  .Title h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  .Intro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: space-between;
+  }
+  .Container {
+    width: 4.5rem;
+    height: 100%;
+    background-color: #f9f4da;
+  }
+  .CapacitiesTitle {
+    width: 50%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .TekLogo {
+    width: 8rem;
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5rem;
+    transition: all 0.2s ease;
+    z-index: 3;
+  }
+
+  .Footer {
+    color: #fcba28;
+    text-align: center;
+    font-family: PaytoneOne, sans-serif;
+    height: 15rem;
+    width: 95%;
+    border-radius: 1rem;
+    margin: 0 auto 1rem auto;
+    transition: all 0.2s ease;
+    background-color: #231f20;
+    z-index: 1;
+  }
+
+  .FooterTitle {
+    font-size: 3rem;
+    transition: all 0.2s ease;
+    z-index: -1;
+  }
+}
+
+
+
+@font-face {
+  font-family: "PaytoneOne";
+  src: local("PaytoneOne"), url("../Fonts/PaytoneOne.ttf") format("truetype");
+}
+

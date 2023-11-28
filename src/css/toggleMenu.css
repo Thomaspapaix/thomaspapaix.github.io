@@ -1,0 +1,62 @@
+.Toggle {
+    z-index: 100;
+}
+
+.Toggle button {
+    background-color: transparent;
+    border: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.MenuNav {
+    position: absolute;
+    right: 0.5rem;
+}
+
+.Toggle ul {
+    z-index: 101;
+    list-style: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 1rem;
+    background-color: #fcba28;
+}
+
+.Toggle li {
+    z-index: 102;
+    font-size: 18px;
+    color: #0f0d0e;
+    padding-right: 0.5rem;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.Toggle ul.fadeIn {
+    opacity: 1;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.Toggle ul.fadeOut {
+    opacity: 0;
+    animation: fadeOut 0.2s ease-in-out;
+}
+
